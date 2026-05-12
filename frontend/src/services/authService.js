@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://fsd-03-backend.vercel.app/api/auth";
+const API = "https://fsd-03-issue-tracking-system.vercel.app/api/auth";
 
 // REGISTER
 export const registerUser = async (userData) => {

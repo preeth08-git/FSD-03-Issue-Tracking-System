@@ -11,7 +11,10 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "https://fsd-03-issue-tracking-system-og35.vercel.app",
+  origin: [
+    "http://localhost:3000",
+    "https://fsd-03-issue-tracking-system-og35.vercel.app"
+  ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));

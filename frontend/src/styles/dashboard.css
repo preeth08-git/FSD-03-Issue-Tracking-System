@@ -1,0 +1,61 @@
+.dashboard-container {
+  padding: 40px;
+  background: #f4f7fc;
+  min-height: 100vh;
+}
+
+.dashboard-container h1 {
+  margin-bottom: 20px;
+}
+
+.issue-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.issue-form input,
+.issue-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.issue-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.issue-form button {
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.issue-list {
+  display: grid;
+  gap: 20px;
+}
+
+.issue-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+.issue-card h3 {
+  margin-bottom: 10px;
+}
+
+.issue-card span {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
